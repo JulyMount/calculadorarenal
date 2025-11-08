@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pontuação do Jogador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="page-jogador">
+    <h1 id="jogador-titulo">Jogador...</h1>
+    
+    <div class="card-section" id="sangue-section">
+      <h2>SANGUE (Salvo)</h2>
+      <div class="counter" data-card="glicose_s" data-points="5">
+        <span class="counter-label">Glicose <span>[+5]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      <div class="counter" data-card="aminoacido_s" data-points="5">
+        <span class="counter-label">Aminoácido <span>[+5]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      <div class="counter" data-card="agua_s" data-points="1">
+        <span class="counter-label">Água <span>[+1]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      <div class="counter" data-card="sodio_s" data-points="1">
+        <span class="counter-label">Sódio <span>[+1]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      <div class="counter" data-card="ureia_s" data-points="-5">
+        <span class="counter-label">Ureia (Sangue) <span>[-5]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      <div class="counter" data-card="creatinina_s" data-points="0">
+        <span class="counter-label">Creatinina <span>[0]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      <div class="counter" data-card="peptideo_s" data-points="0">
+        <span class="counter-label">Peptídeo <span>[0]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card-section" id="urina-section">
+      <h2>URINA (Final)</h2>
+      <div class="counter" data-card="glicose_u" data-points="-10">
+        <span class="counter-label">Glicose (Urina) <span>[-10]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      <div class="counter" data-card="aminoacido_u" data-points="-10">
+        <span class="counter-label">Aminoácido (Urina) <span>[-10]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      <div class="counter" data-card="agua_u" data-points="0">
+        <span class="counter-label">Água <span>[0]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      <div class="counter" data-card="sodio_u" data-points="0">
+        <span class="counter-label">Sódio <span>[0]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      <div class="counter" data-card="ureia_u" data-points="3">
+        <span class="counter-label">Ureia <span>[+3]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      <div class="counter" data-card="creatinina_u" data-points="3">
+        <span class="counter-label">Creatinina <span>[+3]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      <div class="counter" data-card="peptideo_u" data-points="-10">
+        <span class="counter-label">Peptídeo (Urina) <span>[-10]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+    </div>
+    
+    <button class="btn" id="btn-proximo-jogador">Carregando...</button>
+    
+    <a href="index.html">← Cancelar e Voltar</a>
+  </div>
+  
+  <script src="script.js" defer></script>
+</body>
+</html>
