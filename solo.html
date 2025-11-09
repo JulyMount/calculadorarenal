@@ -74,7 +74,7 @@
       <h2>URINA (Final)</h2>
       <div class="counter" data-card="glicose_u" data-points="-10">
         <span class="counter-label">Glicose (Urina) <span>[-10]</span></span>
-        <div class="input-group">
+        <div class.input-group">
           <button class="btn-minus">-</button>
           <span class="value">0</span>
           <button class="btn-plus">+</button>
@@ -130,6 +130,27 @@
       </div>
     </div>
     
+    <div class="card-section" id="bonus-section">
+      <h2>Bônus / Penalidades</h2>
+      
+      <div class="counter" data-card="bonus_cards" data-points="5">
+        <span class="counter-label">Cartas Bônus <span>[+5]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      
+      <div class="counter" data-card="penalty_cards" data-points="-5">
+        <span class="counter-label">Cartas Penalidade <span>[-5]</span></span>
+        <div class="input-group">
+          <button class="btn-minus">-</button>
+          <span class="value">0</span>
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+    </div>
     <button class="btn" id="btn-calcular-solo">Calcular Pontuação</button>
     <div id="resultado-final" style="display: none;"></div>
     
